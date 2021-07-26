@@ -12,9 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    EditText editMainName, editMainEmail;
     TextView textToast;
     View dialogV, toastV;
-    EditText editMainName, editMainEmail, editName, editEmail;
+    EditText editName, editEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,4 +60,5 @@ public class MainActivity extends AppCompatActivity {
             dialog.show();
         }
     };
+
 }
