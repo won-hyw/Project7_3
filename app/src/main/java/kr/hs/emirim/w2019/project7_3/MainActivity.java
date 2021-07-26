@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(DialogInterface dialogInterface, int i) {
                     editName = dialogV.findViewById(R.id.dialog_edit_name);
                     editEmail = dialogV.findViewById(R.id.dialog_edit_email);
-                    editMainEmail.setText(editName.getText().toString());
+                    editMainName.setText(editName.getText().toString());
                     editMainEmail.setText(editEmail.getText().toString());
                 }
             });
